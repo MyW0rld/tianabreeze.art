@@ -9,7 +9,7 @@
   }
 
   .product {
-    width: calc(50% - 40px);
+    width: calc(100% - 40px);
     margin: 20px;
     text-align: center;
     box-sizing: border-box;
