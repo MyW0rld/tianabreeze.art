@@ -316,12 +316,12 @@ footer .shipping {
   background: #a0bfbd;
   border-radius: 2px;
   text-decoration: none;
-
   transition: all 0.5s ease;
 }
 
 footer .faq {
   margin-left: 23%;
+  margin-right: 4%;
   float: left;
   font-weight: 400;
   font-size: 14px;
@@ -343,6 +343,7 @@ footer p {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   font-size: 12px;
 }
