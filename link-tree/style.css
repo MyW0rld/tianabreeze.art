@@ -34,14 +34,13 @@ body {
 .img {
   float: center;
   padding: 0;
-  width: 25%;
   height: 25%;
   border-radius: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  width: 50%;
+  width: 15%;
 }
 
 h1 {
@@ -67,7 +66,7 @@ nav {
 
 nav a {
   flex-basis: 100%;
-  margin: 10px;
+  margin: 10px 200px;
   font-size: 20px;
   color: #80abe2;
   background-color: #ffffff;
