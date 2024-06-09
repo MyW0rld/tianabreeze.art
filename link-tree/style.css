@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b7c9e8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c8ccd6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0bfbd;
+}
+
+body {
+  background: url(back.webp);
+  background-size: 100%;
+}
+
+.img {
+  float: center;
+  padding: 0;
+  width: 25%;
+  height: 25%;
+  border-radius: 100%;
+  margin: 2% 0 2% 35%;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 30% 20px 25%;
+  padding-bottom: 15px;
+}
+
+.p {
+  text-align: justify;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 25px;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  flex-basis: 100%;
+  margin: 10px;
+  font-size: 20px;
+  color: #80abe2;
+  background-color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  border-radius: 15px;
+  padding: 2% 15%;
+}
+
+nav a:hover {
+  background-color: #80abe2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+ .img {
+    width: 50%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 16px;
+  }
+}
