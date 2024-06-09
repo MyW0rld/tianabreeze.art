@@ -66,7 +66,7 @@ nav {
 
 nav a {
   flex-basis: 100%;
-  margin: 10px 15px;
+  margin: 10px 300px;
   font-size: 20px;
   color: #80abe2;
   background-color: #ffffff;
@@ -93,6 +93,7 @@ nav a:hover {
     flex-direction: column;
   }
   nav a {
+	margin: 10px 15px;
     font-size: 20px;
   }
 }
