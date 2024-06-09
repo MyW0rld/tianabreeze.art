@@ -27,6 +27,8 @@
 body {
   background: url(back.webp);
   background-size: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .img {
@@ -43,10 +45,10 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: #ffffff;
-  margin: 0 auto 20px auto;
+  margin: 3% auto 20px auto;
   padding-bottom: 15px;
 }
 
@@ -92,6 +94,6 @@ nav a:hover {
     flex-direction: column;
   }
   nav a {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
