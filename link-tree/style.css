@@ -215,7 +215,7 @@ h1 {
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   body {
     background: url(back.webp);
   }
@@ -231,8 +231,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 3%;
-    margin: 5% 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
 
   .website {
@@ -246,8 +246,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 29.4%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
 
   .saatchi {
@@ -261,8 +261,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 24.3%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
 
   .facebook {
@@ -276,8 +276,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 27%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
 
   .tiktok {
@@ -291,8 +291,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 31.55%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
 
   .youtube {
@@ -306,8 +306,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 28.45%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
   
     .nft {
@@ -321,8 +321,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 25%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
   
     .coffe {
@@ -336,8 +336,8 @@ h1 {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 15px;
-    padding: 4% 1.5%;
-    margin: 0 0 10% 7%;
+    padding: 4% auto;
+    margin: 0 0 10% 0;
   }
 
   .shop-av:hover {
@@ -379,18 +379,12 @@ h1 {
     color: #ffffff;
     cursor: pointer;
   }
-  
-  .coffe:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
 
   h1 {
     font-size: 50px;
     text-align: center;
     color: #ffffff;
-    margin: 0 30% 5% 9%;
+    margin: auto;
     padding-bottom: 15px;
   }
 
