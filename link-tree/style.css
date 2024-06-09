@@ -1,6 +1,6 @@
 * {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
   font-family: Verdana;
   box-sizing: border-box;
 }
@@ -32,10 +32,10 @@ body {
 .img {
   float: center;
   padding: 0;
-  width: 13%;
-  height: 13%;
+  width: 25%;
+  height: 25%;
   border-radius: 100%;
-  margin: 2% 0 2% 41%;
+  margin: 2% 0 2% 35%;
 }
 
 h1 {
@@ -54,8 +54,14 @@ h1 {
   padding: 15px 0;
 }
 
-.shop-av {
-  display: inline-block;
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  flex-basis: 100%;
+  margin: 10px;
   font-size: 20px;
   color: #80abe2;
   background-color: #ffffff;
@@ -66,341 +72,22 @@ h1 {
   transition: all 0.7s ease;
   border-radius: 15px;
   padding: 2% 15%;
-  margin: 0 0 3% 23.5%;
 }
 
-.website {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 21.5%;
-  margin: 0 0 3% 23.5%;
-}
-
-.saatchi {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 20.25%;
-  margin: 0 0 3% 23.5%;
-}
-
-.facebook {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 21%;
-  margin: 0 0 3% 23.5%;
-}
-
-.tiktok {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 22.1%;
-  margin: 0 0 3% 23.5%;
-}
-
-.youtube {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 21.3%;
-  margin: 0 0 3% 23.5%;
-}
-
-.nft {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 19%;
-  margin: 0 0 3% 23.5%;
-}
-
-.coffe {
-  display: inline-block;
-  font-size: 20px;
-  color: #80abe2;
-  background-color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  border-radius: 15px;
-  padding: 2% 14.7%;
-  margin: 0 0 3% 23.5%;
-}
-
-.shop-av:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.website:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.saatchi:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.facebook:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.tiktok:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.youtube:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.nft:hover {
-  background-color: #80abe2;
-  color: #ffffff;
-  cursor: pointer;
-}
-.coffe:hover {
+nav a:hover {
   background-color: #80abe2;
   color: #ffffff;
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
-  body {
-    background: url(back.webp);
+ .img {
+    width: 50%;
   }
-
-  .shop-av {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
+  nav {
+    flex-direction: column;
   }
-
-  .website {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-
-  .saatchi {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-
-  .facebook {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-
-  .tiktok {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-
-  .youtube {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-  
-    .nft {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-  
-    .coffe {
-    display: inline-block;
-    font-size: 40px;
-    color: #80abe2;
-    background-color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    border-radius: 15px;
-    padding: 4% auto;
-    margin: 0 0 10% 0;
-  }
-
-  .shop-av:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-
-  .website:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  .saatchi:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  .facebook:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-
-  .tiktok:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  
-  .youtube:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  
-  .nft:hover {
-    background-color: #80abe2;
-    color: #ffffff;
-    cursor: pointer;
-  }
-
-  h1 {
-    font-size: 50px;
-    text-align: center;
-    color: #ffffff;
-    margin: auto;
-    padding-bottom: 15px;
-  }
-
-  .p {
-    text-align: justify;
-    line-height: 25px;
-    font-size: 18px;
-    padding: 15px 0;
-  }
-
-  .img {
-    float: center;
-    padding: 0;
-    width: 35%;
-    height: 35%;
-    border-radius: 100%;
-    margin: 11% 0 5% 32%;
+  nav a {
+    font-size: 16px;
   }
 }
