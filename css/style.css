@@ -364,7 +364,17 @@ footer a {
 }
 
 .fa-instagram {
-  margin: 0 0 0 47%;
+  margin: 0 0 0 46%;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  padding: 4px 6px;
+  font-size: 30px !important;
+  transition: 0.5s;
+}
+
+.fa-tiktok {
+  margin: 0 0 0 0;
   text-decoration: none;
   color: #fff;
   display: flex;
@@ -390,6 +400,13 @@ footer a {
 
 .fa-instagram:hover {
   background: linear-gradient(45deg, #ffd900, #e4405f, #b300ff);
+  border-radius: 15%;
+  transition: 0.5s;
+}
+
+.fa-tiktok:hover {
+  background: #1a1a1a;
+  color: #fff;
   border-radius: 15%;
   transition: 0.5s;
 }
