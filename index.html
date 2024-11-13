@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Redirect</title>
+	
+<style>
+	body {
+		background: #a0bfbd;
+		color: #2e5e61;
+	}
+	
+	@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+	
+	h1 {
+		font-family: "Russo One", sans-serif;
+	}
+</style>
+
+    <script>
+        function redirectBasedOnDevice() {
+            if (window.innerWidth <= 800) {
+                window.location.href = "TB/";
+            } else {
+                window.location.href = "TB/";
+            }
+        }
+        window.onload = redirectBasedOnDevice;
+    </script>
+</head>
+<body>
+    <h1>Redirecting to latest website version...</h1>
+</body>
+</html>
