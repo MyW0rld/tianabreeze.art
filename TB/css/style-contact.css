@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.mail {
+    width: 70%;
+    height: 90%;
+    background: #a0bfbd;
+    padding: 3% 3% 0.01% 3%;
+    margin: auto;
+}
+
+.about-title {
+    text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e5e61;
+  margin-left: -21%;
+}
+
+.about-text {
+    margin-left: 0;
+    margin-top: 1%;
+}
+
+.p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin: 0 0 3% 0;
+    width: 100%;
+}
+
+.mail2 {
+    max-width: 70%;
+    max-height: 90%;
+    background: #f0f1f6;
+    padding: 3%;
+    margin: auto;
+}
+
+.required {
+    color: #707070;
+    font-size: 12px;
+}
+
+.img1 {
+    width: 20%;
+    float: right;
+	border-radius: 2px;
+	 pointer-events: none;
+}
+
+.img2 {
+    width: 35%;
+    margin: auto;
+    float: right;
+	border-radius: 2px;
+	 pointer-events: none;
+}
+
+.text {
+    margin: 20px auto 20px 0;
+}
+
+.name {
+    width: 50%;
+    height: 40px;
+    margin: 1% auto 2.5% 0%;
+}
+
+.email {
+    width: 50%;
+    height: 40px;
+    margin: 1% auto 2.5% 0%;
+}
+
+.message {
+    width: 50%;
+    height: 80px;
+    margin: 1% auto 2.5% 0%;
+}
+
+.submit-button {
+    margin: 0 auto 0 18%;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 27px;
+    color: #333;
+    background: #e7e8ed;
+    border: #f0f1f6;
+    border-radius: 2px;
+    -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.submit-button:hover {
+    background: #333;
+    color: #fff;
+    -webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.privacy {
+    text-align: center;
+    background: #a0bfbd;
+    color: #fff;
+    padding: 2% 0 3% 2%;
+    max-width: 70%;
+    margin: auto;
+    font-size: 12px;
+    color: #2e5e61;
+}
+
+footer {
+    margin-top: 7%;
+}
