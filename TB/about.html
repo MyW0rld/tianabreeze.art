@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>tianabreeze.art</title>
+    <script src="js/lang.js" defer></script>
 </head>
 <body>
     <p class="top-line"></p>
@@ -28,9 +29,14 @@
       <a class="a" href="delivery">DELIVERY</a>
     </li>
 
+<div id="lang-switcher" style="margin: 20px;">
+  <button onclick="setLanguage('en')">EN</button>
+  <button onclick="setLanguage('pl')">PL</button>
+  <button onclick="setLanguage('fr')">FR</button>
+</div>
 
 <div class="about-back-back" style="background: #a0bfbd; color: #fff;">
-    <h1 class="about-title" style="display: flex; justify-content: center; max-width: 47%; margin: 2% 0 0 50%;">ABOUT ME</h1>
+    <h1 class="about-title" style="display: flex; justify-content: center; max-width: 47%; margin: 2% 0 0 50%;" data-i18n="aboutMeTitle">ABOUT ME</h1>
     <img src="imgs/about-1.jpg" class="about-tiana-img-1" style="border: 1px solid #e0e0e0; background: #e0e0e0; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); padding: 5px;">
     <p class="about-text" style="max-width: 60%; margin-top: 3%;">
 
