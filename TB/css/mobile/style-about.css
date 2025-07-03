@@ -39,32 +39,74 @@
     font-size: 7px;
   }
 
-  .about-tiana-img {
-    margin: 3% 0 0 20%;
-    float: unset;
-    padding: 5px;
-    width: 70%;
-	height: auto;
+  .about-tiana-img-1 {
+	  display: none;
+  }
+
+  .about-tiana-img-2 {
+	  display: none;
+  }
+
+  .about-tiana-img-3 {
+	  display: none;
   }
 
   .about-title {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    margin-left: 10%;
-    margin-top: 5%;
     letter-spacing: 3px;
     font-size: 18px;
     font-weight: 300;
+		display: flex;
+	justify-content: center;
+	margin: 5% auto 0 auto;
+  }
+  
+   .about-title1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 300;
+		display: flex;
+	justify-content: center;
+	margin: 5% auto 0 auto;
+	
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+  }
+  
+  .about-title2 {
+	margin-top: 1%;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e5e61;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+	display: flex; justify-content: center; max-width: 100%;
+	margin: auto;
+}
+  
+  .about-art-text {
+	  max-width: 100%;
+	  text-align: center;
+
   }
 
   .about-text {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
-    max-width: 90%;
+    max-width: 100%;
     margin: 1% auto 0 13%;
     letter-spacing: 1px;
     text-align: center;
   }
+  
 
   .name-tiana {
     font-family: "Fasthand", sans-serif;
