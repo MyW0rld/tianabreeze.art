@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>tianabreeze.art</title>
+<script src="js/lang.js" defer></script>
 </head>
 <body>
     <p class="top-line"></p>
@@ -28,13 +29,12 @@
       <a class="a" href="delivery">DELIVERY</a>
     </li>
 
-	<!--
+	
 <div id="lang-switcher" style="margin: 20px;">
-  <button onclick="setLanguage('en')">EN</button>
-  <button onclick="setLanguage('pl')">PL</button>
-  <button onclick="setLanguage('fr')">FR</button>
-</div> -->
-
+  <img src="https://flagcdn.com/gb.svg" alt="English" onclick="setLanguage('en')" style="width: 32px; cursor: pointer; margin-right: 10px;" />
+  <img src="https://flagcdn.com/pl.svg" alt="Polski" onclick="setLanguage('pl')" style="width: 32px; cursor: pointer;" />
+</div>
+	
 
 <!-- About ME -->
 <div class="about-back-back" style="background: #a0bfbd; color: #fff;">
@@ -63,7 +63,7 @@ Her works are held in private collections in the USA, UK, Germany, Belarus, Pola
 </div>
 <!-- About my art -->
 <div class="about-back-back" style="background: #a0bfbd; color: #fff;">
-    <h1 class="about-title1">ABOUT MY ART</h1>
+    <h1 class="about-title1" data-i18n="aboutArtTitle">ABOUT MY ART</h1>
     <img src="imgs/about-2.jpg" class="about-tiana-img-2" style="border: 1px solid #e0e0e0; background: #e0e0e0; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); padding: 5px;">
     <p class="about-art-text">
 
@@ -109,14 +109,14 @@ As a modern artist, I seek a balance between classical principles and contempora
 	
 	    <img src="imgs/about-3.jpg" class="about-tiana-img-3" style="border: 1px solid #e0e0e0; background: #e0e0e0; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); padding: 5px;">
 
-<p class="cytata">"Look at my pictures and just breath..."</p>
+<p class="cytata" data-i18n="aboutQuote">"Look at my pictures and just breath..."</p>
 <h2 class="name-tiana">Tiana Breeze</h2>
 </div>
 
   <footer style="margin-top: 2%;">
-    <a href="shipping" class="faq">SHIPPING & RETURNS</a>
-    <p class="shipping">© Copyright Tiana Breeze Art</p>
-    <p style="margin: 1.4% 0 0 0; font-size: 16px;">Want to see behind the scenes? Follow me!</p>
+    <a href="shipping" class="faq" data-i18n="shipping"></a>
+    <p class="shipping" data-i18n="footerText"></p>
+    <p style="margin: 1.4% 0 0 0; font-size: 16px;" data-i18n="followMe"></p>
     <a href="https://www.instagram.com/tiana.breeze.art" class="fa fa-instagram" target="_blank"></a>
     <a href="https://www.facebook.com/tiana.breeze.art" class="fa fa-facebook" target="_blank"></a>
 	  <a href="https://www.tiktok.com/@tiana.breeze.art" class="fa-brands fa-tiktok" target="_blank"></a>
