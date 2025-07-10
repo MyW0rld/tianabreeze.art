@@ -23,6 +23,7 @@ function googleTranslateElementInit() {
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 -->
 	  
+	  
 		<p class="top-line"></p>
 		<a class="back-main" href="index">Tiana Breeze</a>
 
@@ -39,6 +40,17 @@ function googleTranslateElementInit() {
 		  <a class="a" href="delivery">DELIVERY</a>
 		</li>
 
+	  <!-- Translation Buttons -->
+<div id="lang-switcher" style="text-align: right; margin: 10px 20px;">
+  <button onclick="setLanguage('en')" style="background: none; border: none; cursor: pointer;">
+    <img src="imgs/flags/en.png" alt="English" width="32" height="24">
+  </button>
+  <button onclick="setLanguage('pl')" style="background: none; border: none; cursor: pointer;">
+    <img src="imgs/flags/pl.png" alt="Polski" width="32" height="24">
+  </button>
+</div>
+
+
     <div class="div-home">
 		<img src="imgs/main-boat1.webp" class="img1">
 		<img src="imgs/main-boat2.webp" class="img2">
@@ -46,14 +58,10 @@ function googleTranslateElementInit() {
 
     <div class="about-home">
       <img src="imgs/index.webp" loading="eager" class="about-tiana-img-index">
-      <h2>MEET THE ARTIST</h2>
-      <h1>I'm Tiana</h1>
-      <p>
-        <br>A huge warm welcome to you!</br>
-
-        I draw endless inspiration from traveling on a yacht and translate my love for the coast with impressionistic seascapes, images of boats, yachts and beach life. Art is my life and passion.
-      </p>
-      <a href="about" class="button-about">LEARN MORE</a>
+      <h2 data-i18n="indexMeetTheArtist"></h2>
+      <h1 data-i18n="indexImTiana"></h1>
+      <p data-i18n="indexQuote"></p>
+      <a href="about" class="button-about" data-i18n="indexLearnMoreButton"></a>
     </div>
 	
     <div class="wrapper">
@@ -71,9 +79,9 @@ function googleTranslateElementInit() {
     </div>
 
   <footer style="margin-top: 2%;">
-    <a href="shipping" class="faq">SHIPPING & RETURNS</a>
-    <p class="shipping">© Copyright Tiana Breeze Art</p>
-    <p style="margin: 1.4% 0 0 0; font-size: 16px;">Want to see behind the scenes? Follow me!</p>
+    <a href="shipping" class="faq" data-i18n="shipping"></a>
+    <p class="shipping" data-i18n="footerText"></p>
+    <p style="margin: 1.4% 0 0 0; font-size: 16px;" data-i18n="followMe"></p>
     <a href="https://www.instagram.com/tiana.breeze.art" class="fa fa-instagram" target="_blank"></a>
     <a href="https://www.facebook.com/tiana.breeze.art" class="fa fa-facebook" target="_blank"></a>
 	  <a href="https://www.tiktok.com/@tiana.breeze.art" class="fa-brands fa-tiktok" target="_blank"></a>
