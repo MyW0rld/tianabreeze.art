@@ -15,7 +15,8 @@ indexLearnMoreButton: "Learn More",
         <br>Because of some rational reasons I changed my decision and became a manager  after two years at the Vitebsk State Technological University with a degree in manager-economist. Although my career was going well, I later realized that it was not what I really wanted.
 			Moving to Poland, my father's homeland, allowed me to continue painting. Now I am a professional full-time artist and I am happy to be able to do what I love.
 		</br><br>I am a member of the Union of Polish Artists, Painters and Graphic Artists. My artworks are featured in private collections in the USA, UK, Germany, Belarus, Poland and others.`,
-    aboutParagraph3: `
+aboutMyTechnique: `My Technique`,    
+aboutParagraph3: `
         The elemen t of water occupies a central place in my art.
 It has the power to refract light, blur boundaries, and create an illusion of reality that teeters on the edge of abstraction.
 Water is never the same — just like human emotions, memories, and experiences. It is this fluidity and impermanence that attract me, compelling me to search again and again for new ways to convey its living essence on canvas.
@@ -58,6 +59,7 @@ contactPrivacyPolicy: `By clicking on the button, you consent to the processing 
     aboutMeTitle: "O MNIE",
     aboutParagraph1: `<br>Nazywam się Tiana Breeze i jestem białorusko-polską artystką, urodzoną w 1982 roku w Witebsku na Białorusi. Moja mama jest Białorusinką, a tata Polakiem. Często jeździliśmy do Polski odwiedzać krewnych taty. W 2017 roku moja rodzina i ja przeprowadziliśmy się na stałe do Polski, gdzie mieszkam i tworzę do dziś.<br></br>Rysuję od dziecka, początkowo zdobywając sławę w moim kraju jako karykaturzystka. Już od 13. roku życia moje rysunki były publikowane w czasopismach i gazetach, takich jak „Wieczorny Witebsk”, „Witebski Robotnik”, „Witbiczi”, „Piknik”, „Wozhyk”, „Szapoklak” i inne.`,
     aboutParagraph2: `Miałam pięć wystaw indywidualnych. Jestem laureatką regionalnego konkursu karykatur. Kocham satyrę i karykaturę, ale później moją prawdziwą pasją stał się obraz olejny.<br><br></br>Ukończyłam Wydział Sztuk Pięknych i Grafiki na Uniwersytecie Państwowym w Witebsku. Dyplom wykonałam w pracowni malarstwa olejnego pod kierunkiem prof. Anatolija Chmila i obroniłam go z wyróżnieniem. Malowanie olejne okazało się najlepszą techniką do wyrażania mojej pasji twórczej.<br>Z przyczyn racjonalnych zmieniłam decyzję i zostałam menedżerem po dwóch latach studiów na Witebskim Państwowym Uniwersytecie Technologicznym na kierunku menedżer-ekonomista. Mimo że kariera dobrze się rozwijała, później zrozumiałam, że to nie było to, czego naprawdę chciałam. Przeprowadzka do Polski, ojczyzny mojego ojca, pozwoliła mi kontynuować malarstwo. Teraz jestem zawodową artystką na pełen etat i cieszę się, że mogę robić to, co kocham.<br><br>Jestem członkinią Związku Polskich Artystów Plastyków. Moje prace znajdują się w prywatnych kolekcjach w USA, Wielkiej Brytanii, Niemczech, na Białorusi, w Polsce i innych krajach.`,
+aboutMyTechnique: `My Technique`,    
 aboutParagraph3: `
     Żywioł wody zajmuje centralne miejsce w mojej sztuce.  
 Ma moc załamywania światła, zacierania granic i tworzenia iluzji rzeczywistości balansującej na granicy abstrakcji.  
