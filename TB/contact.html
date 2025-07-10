@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>tianabreeze.art</title>
+<script src="js/lang.js" defer></script>
 </head>
 <body>
     <p class="top-line"></p>
@@ -31,14 +32,21 @@
       <a class="a" href="delivery">DELIVERY</a>
     </li>
 
+<div id="lang-switcher" style="margin: 20px; background: #a0bfbd; border-radius: 5px; padding: 5px; display: inline-block">
+  <img src="https://flagcdn.com/gb.svg" alt="English" onclick="setLanguage('en')" style="width: 32px; cursor: pointer; margin-right: 10px;" />
+  <img src="https://flagcdn.com/pl.svg" alt="Polski" onclick="setLanguage('pl')" style="width: 32px; cursor: pointer;" />
+</div>
+
+	
+
 <div class="mail">
     <img src="imgs/commissions.webp" class="img2" style=" width: 33%; border: 1px solid #e0e0e0; background: #e0e0e0; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); padding: 5px;">
 
     <div class="mail" style="background: #a0bfbd; color: #2e5e61; padding-left: 0">
 
     <div class="text2">
-	<br><p class="about-title" style="font-family: 'Quicksand', sans-serif; font-weight: 600; width: 160%; margin-top: -18%;">Do you have any questions?</p> <p style="margin-top: 4%; margin-bottom: 3%; font-weight: 500;" class="p">Feel free to contact me on my email:  <a href="mailto:tianabreezeart@gmail.com" class="contact-email" style="letter-spacing: 2px;" target="_blank">tianabreezeart@gmail.com</a> <br>or on Contact Form.</br></p>
-    <p style="font-weight: 500; margin-bottom: 7%;" class="p">Just fill out the form below to get started.</p>
+	<br><p class="about-title" style="font-family: 'Quicksand', sans-serif; font-weight: 600; width: 160%; margin-top: -18%;" data-i18n="contactAnyQuestions">Do you have any questions?</p> <p style="margin-top: 4%; margin-bottom: 3%; font-weight: 500;" class="p" data-i18n="contactFeelFreeViaEmail">Feel free to contact me on my email:  <a href="mailto:tianabreezeart@gmail.com" class="contact-email" style="letter-spacing: 2px;" target="_blank">tianabreezeart@gmail.com</a> <br>or on Contact Form.</br></p>
+    <p style="font-weight: 500; margin-bottom: 7%;" class="p" data-i18n="contactJustFillOut">Just fill out the form below to get started.</p>
     </div>
 
     <form action="https://formsubmit.co/tianabreezeart@gmail.com" method="POST">
@@ -60,12 +68,12 @@
     </div>
 </div>
 
-<p class="privacy">By clicking on the button, you consent to the processing of personal data and agree to the privacy policy</p>
+<p class="privacy" data-i18n="contactPrivacyPolicy">By clicking on the button, you consent to the processing of personal data and agree to the privacy policy</p>
 
   <footer style="margin-top: 2%;">
-    <a href="shipping" class="faq">SHIPPING & RETURNS</a>
-    <p class="shipping">© Copyright Tiana Breeze Art</p>
-    <p style="margin: 1.4% 0 0 0; font-size: 16px;">Want to see behind the scenes? Follow me!</p>
+    <a href="shipping" class="faq" data-i18n="shipping"></a>
+    <p class="shipping" data-i18n="footerText"></p>
+    <p style="margin: 1.4% 0 0 0; font-size: 16px;" data-i18n="followMe"></p>
     <a href="https://www.instagram.com/tiana.breeze.art" class="fa fa-instagram" target="_blank"></a>
     <a href="https://www.facebook.com/tiana.breeze.art" class="fa fa-facebook" target="_blank"></a>
 	  <a href="https://www.tiktok.com/@tiana.breeze.art" class="fa-brands fa-tiktok" target="_blank"></a>
