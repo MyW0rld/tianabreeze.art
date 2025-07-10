@@ -18,6 +18,11 @@ indexLearnMoreButton: "Learn More",
     aboutArtTitle: "ABOUT MY ART",
     aboutQuote: `"Look at my pictures and just breath..."`,
 
+contactAnyQuestions: "Do you have any questions?",
+contactFeelFreeViaEmail: `Feel free to contact me on my email:  <a href="mailto:tianabreezeart@gmail.com" class="contact-email" style="letter-spacing: 2px;" target="_blank">tianabreezeart@gmail.com</a> <br>or on Contact Form.</br>`,
+contactJustFillOut: `Just fill out the form below to get started.`,
+contactPrivacyPolicy: `By clicking on the button, you consent to the processing of personal data and agree to the privacy policy`,
+	  
     footerText: "© Copyright Tiana Breeze Art",
     shipping: "SHIPPING & RETURNS",
     followMe: "Want to see behind the scenes? Follow me!",
@@ -35,6 +40,12 @@ indexLearnMoreButton: "Learn More",
 
     aboutArtTitle: "O MOJEJ SZTUCE",
     aboutQuote: `"Spójrz na moje obrazy i po prostu oddychaj..."`,
+
+contactAnyQuestions: "Czy masz jakieś pytania?",
+contactFeelFreeViaEmail: "",contactFeelFreeViaEmail: `Zapraszam do kontaktu przez e-mail: <a href="mailto:tianabreezeart@gmail.com" class="contact-email" style="letter-spacing: 2px;" target="_blank">tianabreezeart@gmail.com</a> <br>lub poprzez formularz kontaktowy.</br>`,
+contactJustFillOut: `Wypełnij poniższy formularz, aby rozpocząć.`,
+contactPrivacyPolicy: `Klikając przycisk, wyrażasz zgodę na przetwarzanie danych osobowych i akceptujesz politykę prywatności`,
+
 
     footerText: "© Prawa autorskie Tiana Breeze Art",
     shipping: "WYSYŁKA I ZWROTY",
