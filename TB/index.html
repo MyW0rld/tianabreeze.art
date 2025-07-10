@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>tianabreeze.art</title>
-<script src="js/lang.js"></script>
+<script src="js/lang.js" defer></script>
   </head>
   <body>
 <!-- Google Translation
@@ -41,10 +41,9 @@ function googleTranslateElementInit() {
 		  <a class="a" href="delivery">DELIVERY</a>
 		</li>
 
-	  <!-- Translation Buttons -->
-<div id="lang-switcher" style="margin: 20px;">
-  <button onclick="setLanguage('en')">EN</button>
-  <button onclick="setLanguage('pl')">PL</button>
+<div id="lang-switcher" style="margin: 20px; background: #a0bfbd; border-radius: 5px; padding: 5px; display: inline-block">
+  <img src="https://flagcdn.com/gb.svg" alt="English" onclick="setLanguage('en')" style="width: 32px; cursor: pointer; margin-right: 10px;" />
+  <img src="https://flagcdn.com/pl.svg" alt="Polski" onclick="setLanguage('pl')" style="width: 32px; cursor: pointer;" />
 </div>
 
 
@@ -55,10 +54,10 @@ function googleTranslateElementInit() {
 
     <div class="about-home">
       <img src="imgs/index.webp" loading="eager" class="about-tiana-img-index">
-      <h2 data-i18n="indexMeetTheArtist"></h2>
-      <h1 data-i18n="indexImTiana"></h1>
-      <p data-i18n="indexQuote"></p>
-      <a href="about" class="button-about" data-i18n="indexLearnMoreButton"></a>
+      <h2 data-i18n="indexMeetTheArtist">MEET THE ARTIST</h2>
+      <h1 data-i18n="indexImTiana">I'm Tiana</h1>
+      <p data-i18n="indexQuote"><br>A huge warm welcome to you!<br>I draw endless inspiration from traveling on a yacht and translate my love for the coast with impressionistic seascapes, images of boats, yachts and beach life. Art is my life and passion.</p>
+      <a href="about" class="button-about" data-i18n="indexLearnMoreButton">LEARN MORE</a>
     </div>
 	
     <div class="wrapper">
